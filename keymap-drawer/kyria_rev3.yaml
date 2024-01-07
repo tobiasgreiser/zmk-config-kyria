@@ -185,7 +185,7 @@ layers:
   - ''
   - LC(LEFT)
   - {type: held}
-  - '&td_ds'
+  - {t: ▽, type: trans}
   - '&td_out'
   - {type: held}
   - ''
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&td_ds'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ layers:
   - ''
   - LC(LEFT)
   - {t: ▽, type: trans}
-  - '&td_ds'
+  - {t: ▽, type: trans}
   - '&td_out'
   - {t: ▽, type: trans}
   - ''
@@ -250,7 +250,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&td_ds'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
