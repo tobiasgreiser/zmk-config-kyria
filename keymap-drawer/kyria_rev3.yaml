@@ -314,6 +314,6 @@ combos:
   k: RSHIFT
 - p: [16, 15]
   k: LSHIFT
-- p: [33, 45]
-  k: lower
+- p: [33, 46]
+  k: special_characters
   l: [default]
