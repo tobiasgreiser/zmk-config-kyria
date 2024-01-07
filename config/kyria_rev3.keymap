@@ -60,8 +60,8 @@
         };
 
         active_special_characters {
-            bindings = <&mo 1>;
-            key-positions = <33 45>;
+            bindings = <&mo 5>;
+            key-positions = <33 46>;
             layers = <0>;
         };
     };
