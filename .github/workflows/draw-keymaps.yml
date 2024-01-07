@@ -1,5 +1,7 @@
 name: Draw ZMK keymaps
 
+  #  qmk_layout: LAYOUT_split_3x6_5
+
 on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
