@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: splitkb/kyria/rev1}
 layers:
   default:
-  - TAB
+  - ↹
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '='
-  - {t: ESC, h: LCTRL}
+  - {t: Esc, h: Ctrl}
   - A
   - S
   - D
@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - lower
-  - LGUI
+  - Gui
   - \
   - raise
   - N
@@ -42,14 +42,14 @@ layers:
   - /
   - '-'
   - ''
-  - LALT
-  - SPACE
-  - SPACE
-  - RCTRL
+  - Alt
+  - ␣
+  - ␣
+  - Ctrl
   - BACKSPACE
   - ENTER
   - ENTER
-  - RALT
+  - Alt
   - PRINTSCREEN
   lower:
   - {t: ▽, type: trans}
@@ -130,8 +130,8 @@ layers:
   - ''
   - ''
   - ''
-  - VOL DN
-  - VOL UP
+  - Vol Down
+  - Vol Up
   - MUTE
   - {t: ▽, type: trans}
   - ''
@@ -158,12 +158,12 @@ layers:
   - ''
   - LC(RIGHT)
   - ''
-  - END
+  - End
   - ''
   - ''
-  - PG DN
-  - PG UP
-  - HOME
+  - Page Down
+  - Page Up
+  - Home
   - ''
   - BT CLR
   - {t: ▽, type: trans}
@@ -172,10 +172,10 @@ layers:
   - ''
   - ''
   - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - ←
+  - ↓
+  - ↑
+  - →
   - ''
   - ''
   - ''
@@ -209,12 +209,12 @@ layers:
   - ''
   - LC(RIGHT)
   - ''
-  - END
+  - End
   - ''
   - ''
-  - PG DN
-  - PG UP
-  - HOME
+  - Page Down
+  - Page Up
+  - Home
   - ''
   - BT CLR
   - {t: ▽, type: trans}
@@ -223,10 +223,10 @@ layers:
   - ''
   - ''
   - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - ←
+  - ↓
+  - ↑
+  - →
   - {type: held}
   - ''
   - ''
@@ -308,7 +308,7 @@ layers:
   - ''
 combos:
 - p: [7, 8]
-  k: SPACE
+  k: ␣
   l: [default]
 - p: [19, 20]
   k: RSHIFT
