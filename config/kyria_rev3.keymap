@@ -58,6 +58,12 @@
             bindings = <&kp LSHIFT>;
             key-positions = <16 15>;
         };
+
+        active_special_characters {
+            bindings = <&mo 1>;
+            key-positions = <33 45>;
+            layers = <0>;
+        };
     };
 
     behaviors {
