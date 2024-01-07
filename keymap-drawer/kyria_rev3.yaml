@@ -1,0 +1,316 @@
+layout: {qmk_keyboard: splitkb/kyria/rev1}
+layers:
+  default:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '='
+  - {t: ESC, h: LCTRL}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: adjust_layer_semi}
+  - ''''
+  - {t: special_characters, h: sticky}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - lower
+  - LGUI
+  - \
+  - raise
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '-'
+  - ''
+  - LALT
+  - SPACE
+  - SPACE
+  - RCTRL
+  - BACKSPACE
+  - ENTER
+  - ENTER
+  - RALT
+  - PRINTSCREEN
+  lower:
+  - {t: ▽, type: trans}
+  - '`'
+  - '~'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - ''
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F12
+  - ''
+  - ''
+  - ''
+  - VOL DN
+  - VOL UP
+  - MUTE
+  - {t: ▽, type: trans}
+  - ''
+  - '&td_media'
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - {t: ▽, type: trans}
+  - ''
+  - LC(RIGHT)
+  - ''
+  - END
+  - ''
+  - ''
+  - PG DN
+  - PG UP
+  - HOME
+  - ''
+  - BT CLR
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LC(LEFT)
+  - {type: held}
+  - '&td_ds'
+  - '&td_out'
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust_layer_semi:
+  - {t: ▽, type: trans}
+  - ''
+  - LC(RIGHT)
+  - ''
+  - END
+  - ''
+  - ''
+  - PG DN
+  - PG UP
+  - HOME
+  - ''
+  - BT CLR
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LC(LEFT)
+  - {t: ▽, type: trans}
+  - '&td_ds'
+  - '&td_out'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  special_characters:
+  - ''
+  - RA(Q)
+  - ''
+  - RA(5)
+  - ''
+  - ''
+  - RA(Y)
+  - ''
+  - ''
+  - ''
+  - RA(P)
+  - ''
+  - ''
+  - ''
+  - RA(S)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [7, 8]
+  k: SPACE
+  l: [default]
+- p: [19, 20]
+  k: RSHIFT
+- p: [16, 15]
+  k: LSHIFT
