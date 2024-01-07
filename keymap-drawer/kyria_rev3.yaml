@@ -158,12 +158,12 @@ layers:
   - ''
   - LC(RIGHT)
   - ''
-  - End
   - ''
   - ''
+  - Home
   - Page Down
   - Page Up
-  - Home
+  - End
   - ''
   - BT CLR
   - {t: ▽, type: trans}
@@ -209,12 +209,12 @@ layers:
   - ''
   - LC(RIGHT)
   - ''
-  - End
   - ''
   - ''
+  - Home
   - Page Down
   - Page Up
-  - Home
+  - End
   - ''
   - BT CLR
   - {t: ▽, type: trans}
