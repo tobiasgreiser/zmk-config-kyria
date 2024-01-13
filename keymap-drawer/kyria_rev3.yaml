@@ -83,7 +83,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -96,7 +96,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCMD
+  - Gui
   - '&td_ds'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
