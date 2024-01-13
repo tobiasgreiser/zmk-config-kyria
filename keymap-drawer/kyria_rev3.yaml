@@ -28,28 +28,28 @@ layers:
   - numpad
   - Z
   - X
-  - C
-  - V
-  - B
+  - {t: C, h: Gui}
+  - {t: V, h: Alt}
+  - {t: B, h: Ctrl}
   - lower
   - Ctrl
   - ''
   - raise
-  - N
-  - M
-  - ','
+  - {t: N, h: Ctrl}
+  - {t: M, h: Alt}
+  - {t: ',', h: Gui}
   - .
   - /
   - '-'
   - ''
-  - Alt
   - ''
+  - ␣
   - ␣
   - Gui
   - BACKSPACE
   - ENTER
+  - ENTER
   - ''
-  - Alt
   - \
   lower:
   - {t: ▽, type: trans}
@@ -134,7 +134,7 @@ layers:
   - Vol Up
   - MUTE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt
   - '&td_media'
   - {type: held}
   - ''
@@ -147,7 +147,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -185,7 +185,7 @@ layers:
   - ''
   - LC(LEFT)
   - {type: held}
-  - {t: ▽, type: trans}
+  - Alt
   - '&td_out'
   - {type: held}
   - ''
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCMD
   - '&td_ds'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ layers:
   - ''
   - LC(LEFT)
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt
   - '&td_out'
   - {t: ▽, type: trans}
   - ''
@@ -249,7 +249,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui
   - '&td_ds'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,7 +338,7 @@ layers:
   - KP MINUS
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -351,7 +351,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
