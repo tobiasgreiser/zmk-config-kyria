@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - lower
-  - Gui
+  - Ctrl
   - \
   - raise
   - N
@@ -45,7 +45,7 @@ layers:
   - Alt
   - ␣
   - ␣
-  - Ctrl
+  - Gui
   - BACKSPACE
   - ENTER
   - ENTER
