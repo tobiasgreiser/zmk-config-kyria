@@ -24,7 +24,7 @@
 #define ADJUST2 4
 #define SPCHAR 5
 
-&mt { tapping-term-ms = <800>; };
+&mt { tapping-term-ms = <200>; };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
@@ -65,6 +65,15 @@
     };
 
     behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
         td_ds: tap_dance_device_select {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -105,7 +114,7 @@
             bindings = <
 &kp TAB        &kp Q  &kp W  &kp E       &kp R       &kp T                                                         &kp Y        &kp U       &kp I           &kp O    &kp P             &kp EQUAL
 &mt LCTRL ESC  &kp A  &kp S  &kp D       &kp F       &kp G                                                         &kp H        &kp J       &kp K           &kp L    &lt ADJUST2 SEMI  &kp SQT
-&mo 6          &kp Z  &kp X  &mt LGUI C  &mt LALT V  &mt LCTRL B  &mo 1      &none       &none          &mo 2      &mt RCTRL N  &mt RALT M  &mt RGUI COMMA  &kp DOT  &kp FSLH          &kp MINUS
+&mo 6          &kp Z  &kp X  &hm LGUI C  &hm LALT V  &hm LCTRL B  &mo 1      &none       &none          &mo 2      &hm RCTRL N  &hm RALT M  &hm RGUI COMMA  &kp DOT  &kp FSLH          &kp MINUS
                              &none       &none       &kp SPACE    &kp SPACE  &kp LSHIFT  &kp BACKSPACE  &kp ENTER  &kp ENTER    &none       &kp BSLH
             >;
         };
