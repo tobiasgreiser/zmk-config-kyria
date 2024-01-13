@@ -24,7 +24,7 @@
 #define ADJUST2 4
 #define SPCHAR 5
 
-&mt { tapping-term-ms = <200>; };
+&mt { tapping-term-ms = <800>; };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
