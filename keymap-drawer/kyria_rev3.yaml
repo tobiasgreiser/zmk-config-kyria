@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, h: adjust_layer_semi}
   - ''''
-  - ''
+  - numpad
   - Z
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - B
   - lower
   - Ctrl
-  - \
+  - ''
   - raise
   - N
   - M
@@ -50,7 +50,7 @@ layers:
   - ENTER
   - ''
   - Alt
-  - PRINTSCREEN
+  - \
   lower:
   - {t: ▽, type: trans}
   - '`'
@@ -138,7 +138,7 @@ layers:
   - '&td_media'
   - {type: held}
   - ''
-  - ''
+  - Print Scrn
   - ''
   - ''
   - ''
@@ -306,6 +306,57 @@ layers:
   - ''
   - ''
   - ''
+  numpad:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP MULTIPLY
+  - KP PLUS
+  - ''
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - KP DIVIDE
+  - KP MINUS
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - ','
+  - {t: ▽, type: trans}
 combos:
 - p: [7, 8]
   k: ␣
