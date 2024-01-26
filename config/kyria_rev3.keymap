@@ -47,16 +47,6 @@
             layers = <0>;
         };
 
-        shift_right {
-            bindings = <&kp RSHIFT>;
-            key-positions = <19 20>;
-        };
-
-        shift_left {
-            bindings = <&kp LSHIFT>;
-            key-positions = <16 15>;
-        };
-
         active_special_characters {
             bindings = <&mo 5>;
             key-positions = <33 46>;
@@ -112,46 +102,46 @@
             //                       |_____| LALT |_____| SPACE | GUI  |  | BSPC |  RET  |_____| RALT | PSCRN |
 
             bindings = <
-&kp TAB        &kp Q  &kp W  &kp E       &kp R       &kp T                                                         &kp Y        &kp U       &kp I           &kp O    &kp P             &kp EQUAL
-&mt LCTRL ESC  &kp A  &kp S  &kp D       &kp F       &kp G                                                         &kp H        &kp J       &kp K           &kp L    &lt ADJUST2 SEMI  &kp SQT
-&mo 6          &kp Z  &kp X  &hm LGUI C  &hm LALT V  &hm LCTRL B  &mo 1      &none       &none          &mo 2      &hm RCTRL N  &hm RALT M  &hm RGUI COMMA  &kp DOT  &kp FSLH          &kp MINUS
-                             &none       &none       &kp SPACE    &kp SPACE  &kp LSHIFT  &kp BACKSPACE  &kp ENTER  &kp ENTER    &none       &kp BSLH
+&kp TAB        &kp Q  &kp W  &kp E  &kp R  &kp T                                                 &kp Y       &kp U      &kp I      &kp O    &kp P             &kp EQUAL
+&mt LCTRL ESC  &kp A  &kp S  &kp D  &kp F  &kp G                                                 &kp H       &kp J      &kp K      &kp L    &lt ADJUST2 SEMI  &kp SQT
+&mo 6          &kp Z  &kp X  &kp C  &kp V  &kp B  &mo 1      &kp LALT  &none          &mo 2      &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH          &kp MINUS
+                             &none  &none  &none  &kp SPACE  &kp LGUI  &kp BACKSPACE  &kp ENTER  &kp LSHIFT  &kp RCTRL  &kp BSLH
             >;
         };
 
         lower_layer {
             bindings = <
-&trans  &kp GRAVE  &kp TILDE  &none     &none     &none                                            &none      &none     &none     &none     &none     &none
-&trans  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                                        &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp LBKT  &kp LBRC
-&none   &none      &none      &none     &none     &none      &trans  &kp LALT  &trans      &trans  &none      &kp PIPE  &none     &kp RPAR  &kp RBKT  &kp RBKT
-                              &trans    &trans    &trans     &trans  &kp LGUI  &kp DELETE  &trans  &trans     &trans    &trans
+&trans  &kp GRAVE  &kp TILDE  &none     &none     &none                                          &none      &none     &none     &none     &none     &none
+&trans  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                                      &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp LBKT  &kp LBRC
+&none   &none      &none      &none     &none     &none      &trans  &trans  &trans      &trans  &none      &kp PIPE  &none     &kp RPAR  &kp RBKT  &kp RBKT
+                              &trans    &trans    &trans     &trans  &trans  &kp DELETE  &trans  &trans     &trans    &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3        &kp F4        &kp F5                                            &kp F6  &kp F7     &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                            &kp N6  &kp N7     &kp N8  &kp N9  &kp N0   &kp F12
-&none   &none   &none   &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE  &trans  &kp LALT  &td_media   &trans  &none   &kp PSCRN  &none   &none   &none    &none
-                        &trans        &trans        &trans      &trans  &kp LGUI  &kp DELETE  &trans  &trans  &trans     &trans
+&trans  &kp F1  &kp F2  &kp F3        &kp F4        &kp F5                                          &kp F6  &kp F7     &kp F8  &kp F9  &kp F10  &kp F11
+&trans  &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                          &kp N6  &kp N7     &kp N8  &kp N9  &kp N0   &kp F12
+&none   &none   &none   &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE  &trans  &trans  &td_media   &trans  &none   &kp PSCRN  &none   &none   &none    &none
+                        &trans        &trans        &trans      &trans  &trans  &kp DELETE  &trans  &trans  &trans     &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&trans  &none  &kp LC(RIGHT)  &none   &none   &none                                            &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none  &bt BT_CLR
-&trans  &none  &none          &none   &none   &none                                            &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
-&none   &none  &none          &none   &none   &kp LC(LEFT)  &trans  &kp LALT  &td_out  &trans  &none     &none      &none      &none      &none  &none
-                              &trans  &trans  &trans        &trans  &kp LGUI  &td_ds   &trans  &trans    &trans     &trans
+&trans  &none  &kp LC(RIGHT)  &none   &none   &none                                          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none  &bt BT_CLR
+&trans  &none  &none          &none   &none   &none                                          &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none  &none
+&none   &none  &none          &none   &none   &kp LC(LEFT)  &trans  &trans  &td_out  &trans  &none     &none      &none      &none      &none  &none
+                              &trans  &trans  &trans        &trans  &trans  &td_ds   &trans  &trans    &trans     &trans
             >;
         };
 
         adjust_layer_semi {
             bindings = <
-&trans  &none  &kp LC(RIGHT)  &none   &none   &none                                            &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none   &bt BT_CLR
-&trans  &none  &none          &none   &none   &none                                            &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &none
-&none   &none  &none          &none   &none   &kp LC(LEFT)  &trans  &kp LALT  &td_out  &trans  &none     &none      &none      &none      &none   &none
-                              &trans  &trans  &trans        &trans  &kp LGUI  &td_ds   &trans  &trans    &trans     &trans
+&trans  &none  &kp LC(RIGHT)  &none   &none   &none                                          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none   &bt BT_CLR
+&trans  &none  &none          &none   &none   &none                                          &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &none
+&none   &none  &none          &none   &none   &kp LC(LEFT)  &trans  &trans  &td_out  &trans  &none     &none      &none      &none      &none   &none
+                              &trans  &trans  &trans        &trans  &trans  &td_ds   &trans  &trans    &trans     &trans
             >;
         };
 
@@ -166,10 +156,10 @@
 
         numpad {
             bindings = <
-&none  &none  &none  &none            &none         &none                                     &none   &kp N7     &kp N8  &kp N9  &none  &none
-&none  &none  &none  &kp KP_MULTIPLY  &kp KP_PLUS   &none                                     &none   &kp N4     &kp N5  &kp N6  &none  &none
-&none  &none  &none  &kp KP_DIVIDE    &kp KP_MINUS  &none   &trans  &kp LALT  &trans  &trans  &none   &kp N1     &kp N2  &kp N3  &none  &none
-                     &trans           &trans        &trans  &trans  &kp LGUI  &trans  &trans  &kp N0  &kp COMMA  &trans
+&none  &none  &none  &none            &none         &none                                   &none   &kp N7     &kp N8  &kp N9  &none  &none
+&none  &none  &none  &kp KP_MULTIPLY  &kp KP_PLUS   &none                                   &none   &kp N4     &kp N5  &kp N6  &none  &none
+&none  &none  &none  &kp KP_DIVIDE    &kp KP_MINUS  &none   &trans  &trans  &trans  &trans  &none   &kp N1     &kp N2  &kp N3  &none  &none
+                     &trans           &trans        &trans  &trans  &trans  &trans  &trans  &kp N0  &kp COMMA  &trans
             >;
         };
     };
