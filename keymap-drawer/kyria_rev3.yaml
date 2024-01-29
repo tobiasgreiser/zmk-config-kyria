@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, h: adjust_layer_semi}
   - ''''
-  - numpad
+  - Cadence
   - Z
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - B
   - lower
   - Gui
-  - ''
+  - numpad
   - raise
   - N
   - M
@@ -331,7 +331,7 @@ layers:
   - '6'
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - KP DIVIDE
@@ -339,7 +339,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
   - '1'
@@ -356,6 +356,57 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - ','
+  - {t: ▽, type: trans}
+  Cadence:
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - U
+  - BACKSPACE
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [7, 8]
