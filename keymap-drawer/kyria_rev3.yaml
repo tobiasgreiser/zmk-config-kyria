@@ -362,7 +362,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - LS(BACKSPACE)
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
