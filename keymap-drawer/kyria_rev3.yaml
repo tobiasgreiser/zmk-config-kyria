@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - lower
-  - Alt
+  - Gui
   - ''
   - raise
   - N
@@ -43,9 +43,9 @@ layers:
   - '-'
   - ''
   - ''
-  - ''
+  - Shift
   - ␣
-  - Gui
+  - Alt
   - BACKSPACE
   - ENTER
   - LSHIFT
